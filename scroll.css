@@ -1,0 +1,53 @@
+.plugin-scroll-left {
+    position: absolute;
+    left: 0;
+    height: 51px;
+    width: 51px;
+    z-index: 99;
+    cursor: pointer;
+    background: url(img/btn.png) left bottom no-repeat;
+}
+
+.plugin-scroll-left:hover {
+    background: url(img/btn.png) left top no-repeat;
+}
+
+.plugin-scroll-right {
+    position: absolute;
+    right: 0;
+    height: 51px;
+    width: 51px;
+    z-index: 99;
+    cursor: pointer;
+    background: url(img/btn.png) right bottom no-repeat;
+}
+
+.plugin-scroll-right:hover {
+    background: url(img/btn.png) right top no-repeat;
+}
+
+.plugin-scroll-index {
+    display: inline-block;
+    padding: 2px 4px;
+    border: 1px solid #FFF;
+    color: #F8D293;
+    margin-right: 6px;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.plugin-scroll-index:hover,
+.plugin-scroll-tag-sel
+{
+    color: #FFF;
+    border-color: #f39801;
+    background: #f39801;
+}
+
+.plugin-scroll-index-wrap {
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+    z-index: 99;
+}

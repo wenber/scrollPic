@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit Example</title>
+  <link rel ="stylesheet" href="scroll.css">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #scroll >div {
+    background: #fec;
+    text-align: center;
+  }
+</style>
+<body>
+  <div id="scroll">
+          <div>这里是编号为1的轮播资源</div>
+          <div>这里是编号为2的轮播资源</div>
+          <div>这里是编号为3的轮播资源</div>
+          <div>这里是编号为4的轮播资源</div>
+          <div>这里是编号为5的轮播资源</div>
+          <div>这里是编号为6的轮播资源</div>
+          <div>这里是编号为7的轮播资源</div>
+  </div>
+  <script src="scroll.js"></script>
+  <script>
+  var scroll = new ScrollPic({
+    id: 'scroll',
+    height: 300,
+    width: 600
+  });
+  scroll.init();
+  </script>
+</body>
+</html>
