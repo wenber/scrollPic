@@ -1,5 +1,4 @@
 ## scrollPic
-=========
 
 ### 插件简介
 ***
@@ -19,11 +18,11 @@
 ***
       1,请跟据需求设置宽高
       2，设置容器id
-      // 1，实例化对象
+```javascript
       var scrollPic = new ScrollPic({
           id: 'scroll-container-id',
           width: 500,
           height: 200
       });
-      // 2，调用初始化方法
       scrollPic.init();
+```
