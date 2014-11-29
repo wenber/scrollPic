@@ -18,6 +18,9 @@
 ***
       1,请跟据需求设置宽高
       2，设置容器id
+      
+### 使用举例：
+***
 ```javascript
       var scrollPic = new ScrollPic({
           id: 'scroll-container-id',
